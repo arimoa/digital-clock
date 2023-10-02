@@ -1,8 +1,8 @@
-var hourEl = document.getElementById("hour-number");
-var minuteEl = document.getElementById("minute-number");
+const hourEl = document.getElementById("hour-number");
+const minuteEl = document.getElementById("minute-number");
 var secondEl = document.getElementById("second-number");
-var meridiemEl = document.getElementById("meridiem");
-var hour, minute, second, meridiem, currentTime;
+const meridiemEl = document.getElementById("meridiem");
+let hour, minute, second, meridiem, currentTime;
 
 function currentTimeFunction() {
   currentTime = new Date();
